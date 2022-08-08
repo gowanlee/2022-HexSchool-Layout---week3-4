@@ -1,0 +1,32 @@
+.pagination{
+    li a{
+        padding: $space * 1.5 $space * 2;
+        border: 1px solid #555555;
+        border-right: 0;
+        color: #555555;
+
+        &:hover{
+            opacity: 1;
+            border-color: $dark;
+            background-color: $dark;
+            color: $white;
+        }
+    }
+    
+    li:last-child a{
+        border: 1px solid #555555;
+    }
+
+    li:first-child a, li:last-child a{
+        padding: $space * 1.5;
+    }
+
+    &-number-now{
+        border-color: $dark;
+        background-color: $dark;
+        color: $white !important; 
+    }
+    &-page-now{
+        background-color: #F2F2F2;
+    }
+}

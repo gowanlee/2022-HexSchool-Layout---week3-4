@@ -1,0 +1,58 @@
+/* 圖片跟隨視窗縮放 */
+/* 圖片不會有多餘的2-3px */
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/* 全域 border box */
+* , *::before , *::after{
+	box-sizing: border-box;
+	//outline: 1px solid yellow;
+}
+
+/* a連結 文字樣式移除、設定成區塊元素及hover效果 */
+a{
+	text-decoration: none;
+    display: block;
+
+	&:hover{
+		opacity: 0.5;
+		transition: .8s;
+	}
+}
+
+/* button 樣式移除 */
+button{
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+
+	&:hover{
+		opacity: 0.5;
+		transition: .8s;
+	}
+}
+
+input , textarea ,select{
+	padding: $space * 0.75 $space * 1.5;
+
+	&:focus{
+		outline-color: $primary;
+	}
+}
+
+body{
+    font-family: $en-font-family , $tc-font-family , sans-serif;
+	line-height: 1.5;
+}
+
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+
+

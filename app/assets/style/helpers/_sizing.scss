@@ -1,0 +1,194 @@
+/* -----sizing----- */
+// width
+.w{
+	&-100{
+		width: 100%;
+	}
+	&-88{
+		width: 88%;
+	}
+	&-80{
+		width: 80%;
+	}
+	&-75{
+		width: 75%;
+	}
+	&-65{
+		width: 65%;
+	}
+	&-50{
+		width: 50%;
+	}
+	&-48{
+		width: 48%;
+	}
+	&-40{
+		width: 40%;
+	}
+	&-35{
+		width: 35%;
+	}
+	&-33{
+		width: 33.33%;
+	}
+	&-30{
+		width: 30%;
+	}
+	&-25{
+		width: 25%;
+	}
+	&-23{
+		width: 23%;
+	}
+}
+
+@include pad{
+	.w-md{
+		&-100{
+			width: 100%;
+		}
+		&-88{
+			width: 88%;
+		}
+		&-80{
+			width: 80%;
+		}
+		&-75{
+			width: 75%;
+		}
+		&-65{
+			width: 65%;
+		}
+		&-50{
+			width: 50%;
+		}
+		&-48{
+			width: 48%;
+		}
+		&-40{
+			width: 40%;
+		}
+		&-35{
+			width: 35%;
+		}
+		&-33{
+			width: 33.33%;
+		}
+		&-30{
+			width: 30%;
+		}
+		&-25{
+			width: 25%;
+		}
+		&-23{
+			width: 23%;
+		}
+	}
+}
+
+@include phone{
+	.w-sm{
+		&-100{
+			width: 100%;
+		}
+		&-80{
+			width: 80%;
+		}
+		&-75{
+			width: 75%;
+		}
+		&-65{
+			width: 65%;
+		}
+		&-50{
+			width: 50%;
+		}
+		&-48{
+			width: 48%;
+		}
+		&-40{
+			width: 40%;
+		}
+		&-35{
+			width: 35%;
+		}
+		&-33{
+			width: 33.33%;
+		}
+		&-30{
+			width: 30%;
+		}
+		&-25{
+			width: 25%;
+		}
+		&-23{
+			width: 23%;
+		}
+	}
+}
+
+
+
+/* -----material icons----- */
+.material-icons-outlined{
+	&.md-18 { 
+	  font-size: 18px; 
+	}
+	&.md-24{
+		font-size: 24px;
+	}
+	&.md-28{
+		font-size: 28px;
+	}
+	&.md-36 { 
+	  font-size: 36px; 
+	}
+	&.md-40 { 
+	  font-size: 40px; 
+	}
+	&.md-48 { 
+	  font-size: 48px; 
+	}
+
+	@include pad{
+		&.md-md-18 { 
+			font-size: 18px; 
+		}
+		&.md-md-24{
+			font-size: 24px;
+		}
+		&.md-md-28{
+			font-size: 28px;
+		}
+		&.md-md-36 { 
+			font-size: 36px; 
+		}
+		&.md-md-40 { 
+			font-size: 40px; 
+		}
+		&.md-md-48 { 
+			font-size: 48px; 
+		}
+	}
+
+	@include phone{
+		&.md-sm-18 { 
+			font-size: 18px; 
+		}
+		&.md-sm-24{
+			font-size: 24px;
+		}
+		&.md-sm-28{
+			font-size: 28px;
+		}
+		&.md-sm-36 { 
+			font-size: 36px; 
+		}
+		&.md-sm-40 { 
+			font-size: 40px; 
+		}
+		&.md-sm-48 { 
+			font-size: 48px; 
+		}
+	}
+}

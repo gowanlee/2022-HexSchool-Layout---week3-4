@@ -1,0 +1,37 @@
+.blog-nav{
+    li a{
+        padding: $space * 1.625 $space * 3;
+        @include phone{
+            padding: $space * 1.5 auto;
+        }
+    }
+
+    li:first-child a{
+        padding-left: 0;
+    }
+    li:last-child a{
+        padding-right: 0;
+    }
+}
+.blog-text-color{
+    color: #555555;
+}
+.blog-share{
+    padding-bottom: $space * 2;
+    border-bottom: 1px solid #707070;
+
+    img{
+        height: 24px;
+    }
+}
+.blog-tags{
+    h3 span{
+        margin-right: $space * 1.5;
+        @include pad{
+            margin-right: 0;
+        }
+    }
+    a{
+        padding-right: $space * 3;
+    }
+}

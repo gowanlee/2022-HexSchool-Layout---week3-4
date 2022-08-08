@@ -1,0 +1,9 @@
+/* -----hover----- */
+.hover{
+	&-scale{
+		&:hover{
+			transform: scale(1.03);
+        	overflow: hidden;
+		}
+	}
+}

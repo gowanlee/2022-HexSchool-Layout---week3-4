@@ -1,0 +1,48 @@
+select{
+    max-width: 304px;
+    width: 100%;
+    color: #495057;
+    border: 1px solid #CED4DA;
+}
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.store-list{
+    gap: $space * 6 $space * 3;
+
+    @include pad{
+        gap: $space * 3;
+    }
+
+    &-content{
+        border: 1px solid #00000020;
+
+        h2{
+            padding: $space $space * 3;
+            border-bottom: 1px solid #00000020;
+        }
+    
+        ul{
+            padding: $space * 2 $space * 3 ;
+        }
+    }
+
+    a{
+        padding: $space * 2;
+    }
+
+    &-google-maps{
+        overflow: hidden;
+        flex: auto;
+
+        iframe{
+            width: 100%;
+            height: 100%;
+
+            @include pad{
+                height: 414px;
+            }
+        }
+    }
+}

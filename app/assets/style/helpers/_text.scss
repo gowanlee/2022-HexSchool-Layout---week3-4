@@ -1,0 +1,159 @@
+/* -----font size----- */ 
+.text{
+	&-sm{
+		font-size: $base-font-size * 0.875; //14px
+	}
+	&-base{
+		font-size: $base-font-size; //16px
+	}
+	&-lg{
+		font-size: $base-font-size * 1.125; //18px
+	}
+	&-xl{
+		font-size: $base-font-size * 1.25; //20px
+	}
+	&-2xl{
+		font-size: $base-font-size * 1.5; //24px
+	}
+	&-3xl{
+		font-size: $base-font-size * 2; //32px
+	}
+	&-4xl{
+		font-size: $base-font-size * 2.25; //36px
+	}
+	&-5xl{
+		font-size: $base-font-size * 2.625; //42px
+	}
+	&-6xl{
+		font-size: $base-font-size * 3; //48px
+	}
+	&-9xl{
+		font-size: $base-font-size * 4; //64px
+	}
+}
+
+@include pad{
+	.text-md{
+		&-sm{
+			font-size: $base-font-size * 0.875; //14px
+		}
+		&-base{
+			font-size: $base-font-size; //16px
+		}
+		&-lg{
+			font-size: $base-font-size * 1.125; //18px
+		}
+		&-xl{
+			font-size: $base-font-size * 1.25; //20px
+		}
+		&-2xl{
+			font-size: $base-font-size * 1.5; //24px
+		}
+		&-3xl{
+			font-size: $base-font-size * 2; //32px
+		}
+		&-4xl{
+			font-size: $base-font-size * 2.25; //36px
+		}
+		&-5xl{
+			font-size: $base-font-size * 2.625; //42px
+		}
+		&-6xl{
+			font-size: $base-font-size * 3; //48px
+		}
+		&-9xl{
+			font-size: $base-font-size * 4; //64px
+		}
+	}
+}
+
+@include phone{
+	.text-sm{
+		&-sm{
+			font-size: $base-font-size * 0.875; //14px
+		}
+		&-base{
+			font-size: $base-font-size; //16px
+		}
+		&-lg{
+			font-size: $base-font-size * 1.125; //18px
+		}
+		&-xl{
+			font-size: $base-font-size * 1.25; //20px
+		}
+		&-2xl{
+			font-size: $base-font-size * 1.5; //24px
+		}
+		&-3xl{
+			font-size: $base-font-size * 2; //32px
+		}
+		&-4xl{
+			font-size: $base-font-size * 2.25; //36px
+		}
+		&-5xl{
+			font-size: $base-font-size * 2.625; //42px
+		}
+		&-6xl{
+			font-size: $base-font-size * 3; //48px
+		}
+		&-9xl{
+			font-size: $base-font-size * 4; //64px
+		}
+	}
+}
+
+
+/* -----font weight----- */ 
+.text{
+	&-regular{
+		font-weight: $font-weight-regular;
+	}
+	&-medium{
+		font-weight: $font-weight-medium;
+	}
+	&-bold{
+		font-weight: $font-weight-bold;
+	}
+	&-black{
+		font-weight: $font-weight-black;
+	}
+}
+
+
+/* -----font style----- */ 
+.text-italic{
+	font-style: $font-italic;
+}
+
+
+/* -----text align----- */
+.text{
+	&-right{
+		text-align: right;
+	}
+	&-center{
+		text-align: center;
+	}
+} 
+
+@include phone{
+	.text-sm{
+		&-end{
+			text-align: end;
+		}
+		&-center{
+			text-align: center;
+		}
+	}
+}
+
+.single-line-center {
+	// 單行置中
+	text-align: center;
+
+	.multi-line-left {
+		// 多行靠左對齊
+		display: inline-block;
+		text-align: left;
+	}
+}

@@ -1,0 +1,25 @@
+/* -----display----- */
+.d{
+	&-none{
+		display: none;
+	}
+	&-inline-block{
+		display: inline-block;
+	}
+}
+
+@include pad{
+	.d-md{
+		&-none{
+			display: none;
+		}
+	}
+}
+
+@include phone{
+	.d-sm{
+		&-none{
+			display: none;
+		}
+	}
+}

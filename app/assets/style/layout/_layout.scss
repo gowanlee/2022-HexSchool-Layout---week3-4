@@ -1,0 +1,67 @@
+.logo-pic{ // 圖片取代文字
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80px;
+    height: 48.57px;
+    background-image: url(../images/logo-white.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    @include phone{
+        margin: $space * 2 auto;
+    }
+}
+.header-nav-list {
+
+    @include phone{
+        margin:auto $space * -1.5;
+
+        li{
+            border: 1px solid $white;
+        }
+    }
+
+    a{
+        padding: $space * 3.125 0;
+
+        @include phone{
+            padding: $space * 1.5 $space * 7.75;
+        }
+    }
+}
+.footer-nav-list{
+    &-link{
+        padding-top: $space * 7.5;
+        padding-bottom: $space * 7.5;
+    }
+}
+.social-icon{
+    width: 48px;
+    height: 48px;
+
+    @include phone{
+        width: 24px;
+        height: 24px;
+    }
+}
+.footer-border-bottom{
+    border-bottom: 1px solid $white;
+}
+
+// padding-bottom
+.pb-4{
+	padding-bottom: $space * 4; //32px
+}
+
+// padding-top
+.pt-4{
+	padding-top: $space * 4; //32px
+}
+
+@include phone{
+	.pt-sm-3{
+		padding-top: $space * 3; //24px
+	}
+}
