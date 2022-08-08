@@ -38,3 +38,4 @@
 
 <b>6. 用scss管理css</b>
   - <a href="https://docs.google.com/presentation/d/11-HFPxkmVj5b6WP50zkKB_GtccvynUu3GaDeALaLpd0/edit#slide=id.p42">ppt基本介紹</a>
+  - <a href="https://courses.hexschool.com/courses/1eebd3/lectures/11953744">影片介紹</a>
