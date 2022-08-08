@@ -4,7 +4,7 @@
 
 本週學習重點：
 
-1. gulp環境部署、git指令上傳開發環境至GitHub、gulp指令上傳至GitHub Pages
+<b>1. gulp環境部署、git指令上傳開發環境至GitHub、gulp指令上傳至GitHub Pages</b>
   - <a href="https://hackmd.io/yWpLNMPRT2yvIR4Zq_idGw?view">參考資料（第一次）</a>
   - 更新上傳資料
     - 更新畫面（GitHub Pages）
