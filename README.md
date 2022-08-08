@@ -5,8 +5,6 @@
 本週學習重點：
 
 <b>1. 響應式網頁</b>
-  - 一定要將此段語法放在head（通常預設就會有了）
-    - "<meta name="viewport" content="width=device-width, initial-scale=1.0">"
   - width是固定寬度，響應式網頁要用max-width才不會出現x軸
   - img max-width:100% height:auto 可以當作css reset
 
