@@ -39,3 +39,69 @@
 <b>6. 用scss管理css</b>
   - <a href="https://docs.google.com/presentation/d/11-HFPxkmVj5b6WP50zkKB_GtccvynUu3GaDeALaLpd0/edit#slide=id.p42">ppt基本介紹</a>
   - <a href="https://courses.hexschool.com/courses/1eebd3/lectures/11953744">影片介紹</a>
+ 
+ 
+ 下方提供關於作業細節的建議：
+
+###整體
+
+1. .container 設定依照設計稿，應為
+
+.container {
+	margin: 0 auto;
+	padding: 0 12px;
+	max-width: 1320px;
+}
+可參考每日任務 Day23
+
+https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9D
+
+
+
+
+
+###index.html
+
+1. .index-banner 內容不需要使用 padding 來推，給以給予一個固定高度 787px，
+
+然後再使用 flex 語法讓內容垂直置中，水平靠右
+
+
+
+###product-optical.html
+
+###product-sunglasses.html
+
+1. 「BJ41600S」屬於商品名稱，可以使用標題標籤來增加語意，優化 SEO
+
+
+
+###store-detail.html
+
+1. .store-list 結構並非列表的 ul li，可使用 div 就好
+
+2. 該頁面的門市照片可以使用背景圖片的方式製作來避免圖片擠壓變形
+
+https://i.imgur.com/mMxqq5q.png
+
+
+
+###blog.html
+
+1. 手機版型的 nav 要消失
+
+2. 變為平板以下，more 連結要變成小寫
+
+可參考文件 https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-transform
+
+
+
+###blog-detail.html
+
+1. 內文可以使用 img+p 就好，因為文章內容不屬於 ul li 列表
+
+
+
+###Q&A.html
+
+1. p 段落文字要使用 br 斷行較符合設計稿的樣式
