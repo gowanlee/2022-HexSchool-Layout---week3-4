@@ -40,10 +40,11 @@
   - <a href="https://docs.google.com/presentation/d/11-HFPxkmVj5b6WP50zkKB_GtccvynUu3GaDeALaLpd0/edit#slide=id.p42">ppt基本介紹</a>
   - <a href="https://courses.hexschool.com/courses/1eebd3/lectures/11953744">影片介紹</a>
  
+ -------------------------------------
  
  下方提供關於作業細節的建議：
 
-###整體
+<b>整體</b>
 
 1. .container 設定依照設計稿，應為
 
@@ -58,9 +59,7 @@ https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9
 
 
 
-
-
-###index.html
+<b>index.html</b>
 
 1. .index-banner 內容不需要使用 padding 來推，給以給予一個固定高度 787px，
 
@@ -68,15 +67,15 @@ https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9
 
 
 
-###product-optical.html
+<b>product-optical.html</b>
 
-###product-sunglasses.html
+<b>product-sunglasses.html</b>
 
 1. 「BJ41600S」屬於商品名稱，可以使用標題標籤來增加語意，優化 SEO
 
 
 
-###store-detail.html
+<b>store-detail.html</b>
 
 1. .store-list 結構並非列表的 ul li，可使用 div 就好
 
@@ -86,7 +85,7 @@ https://i.imgur.com/mMxqq5q.png
 
 
 
-###blog.html
+<b>blog.html</b>
 
 1. 手機版型的 nav 要消失
 
@@ -96,12 +95,12 @@ https://i.imgur.com/mMxqq5q.png
 
 
 
-###blog-detail.html
+<b>blog-detail.html</b>
 
 1. 內文可以使用 img+p 就好，因為文章內容不屬於 ul li 列表
 
 
 
-###Q&A.html
+<b>Q&A.html</b>
 
 1. p 段落文字要使用 br 斷行較符合設計稿的樣式
