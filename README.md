@@ -61,9 +61,7 @@ https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9
 <br>
 <b>index.html</b>
 
-1. .index-banner 內容不需要使用 padding 來推，給以給予一個固定高度 787px，
-
-然後再使用 flex 語法讓內容垂直置中，水平靠右
+1. .index-banner 內容不需要使用 padding 來推，給以給予一個固定高度 787px，然後再使用 flex 語法讓內容垂直置中，水平靠右
 <br>
 <br>
 <br>
@@ -79,19 +77,15 @@ https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9
 
 1. .store-list 結構並非列表的 ul li，可使用 div 就好
 
-2. 該頁面的門市照片可以使用背景圖片的方式製作來避免圖片擠壓變形
-
-https://i.imgur.com/mMxqq5q.png
+2. 該頁面的門市照片可以使用背景圖片的方式製作來避免圖片擠壓變形[圖片解說](https://i.imgur.com/mMxqq5q.png)
 <br>
 <br>
 <br>
 <b>blog.html</b>
 
 1. 手機版型的 nav 要消失
-
 2. 變為平板以下，more 連結要變成小寫
-
-可參考文件 https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-transform
+[可參考文件](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-transform)
 <br>
 <br>
 <br>
