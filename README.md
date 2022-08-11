@@ -49,13 +49,11 @@
 <b>整體</b>
 
 1. .container 設定依照設計稿，應為
-
 `.container {
 	margin: 0 auto;
 	padding: 0 12px;
 	max-width: 1320px;
 }`
-<br>
 [可參考每日任務 Day23](https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9D)
 <br>
 <br>
