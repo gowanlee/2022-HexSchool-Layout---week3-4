@@ -43,7 +43,9 @@
  -------------------------------------
  
  下方提供關於作業細節的建議：
-
+<br>
+<br>
+<br>
 <b>整體</b>
 
 1. .container 設定依照設計稿，應為
@@ -54,6 +56,7 @@
 	max-width: 1320px;
 }`
 [可參考每日任務 Day23](https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9D)
+<br>
 <br>
 <br>
 <br>
