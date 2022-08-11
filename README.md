@@ -56,25 +56,25 @@
 可參考每日任務 Day23
 
 https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9D
-
-
-
+<br>
+<br>
+<br>
 <b>index.html</b>
 
 1. .index-banner 內容不需要使用 padding 來推，給以給予一個固定高度 787px，
 
 然後再使用 flex 語法讓內容垂直置中，水平靠右
-
-
-
+<br>
+<br>
+<br>
 <b>product-optical.html</b>
 
 <b>product-sunglasses.html</b>
 
 1. 「BJ41600S」屬於商品名稱，可以使用標題標籤來增加語意，優化 SEO
-
-
-
+<br>
+<br>
+<br>
 <b>store-detail.html</b>
 
 1. .store-list 結構並非列表的 ul li，可使用 div 就好
@@ -82,9 +82,9 @@ https://hackmd.io/GQUnJGzdR6SSQDnlZdWwqA#RWD-%E6%8E%92%E7%89%88%E9%96%93%E8%B7%9
 2. 該頁面的門市照片可以使用背景圖片的方式製作來避免圖片擠壓變形
 
 https://i.imgur.com/mMxqq5q.png
-
-
-
+<br>
+<br>
+<br>
 <b>blog.html</b>
 
 1. 手機版型的 nav 要消失
@@ -92,15 +92,15 @@ https://i.imgur.com/mMxqq5q.png
 2. 變為平板以下，more 連結要變成小寫
 
 可參考文件 https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-transform
-
-
-
+<br>
+<br>
+<br>
 <b>blog-detail.html</b>
 
 1. 內文可以使用 img+p 就好，因為文章內容不屬於 ul li 列表
-
-
-
+<br>
+<br>
+<br>
 <b>Q&A.html</b>
 
 1. p 段落文字要使用 br 斷行較符合設計稿的樣式
